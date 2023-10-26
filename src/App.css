@@ -1,0 +1,53 @@
+/* App.css */
+.App {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;    
+  width: 100vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fafafa;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.08);
+  padding: 40px;
+  margin: 15px 15px 15px 15px;
+}
+
+h1 {
+  color: #00cb79;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.25);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #00cb79;
+}
+
+button:hover {
+  filter: brightness(105%);
+}
+
+#passingRequirementsResult {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
